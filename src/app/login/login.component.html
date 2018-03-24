@@ -1,0 +1,8 @@
+<h1>Login page</h1>
+
+
+<input type="text" placeholder="Enter your name" required [(ngModel)]="uname"/>
+<input type="password" placeholder="Enter your Password" required [(ngModel)]="pwd"/>
+<button (click)="login(uname, pwd)">Login</button>
+<span (click)="gotoSignup()">New user? click here to signup</span>
+
